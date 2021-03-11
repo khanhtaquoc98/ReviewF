@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cardview="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/itemFlim"
+    android:clickable="true"
+    cardview:cardCornerRadius="4dp"
+    android:layout_width="140dp"
+    android:layout_height="266dp"
+    android:layout_margin="10dp"
+    android:foreground="?android:attr/selectableItemBackground"
+    >
+
+    <LinearLayout
+        android:background="@drawable/background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="195dp"
+            android:scaleType="centerCrop"
+            android:id="@+id/imgFlim"
+            android:background="#2d2d2d"/>
+
+        <TextView
+            android:id="@+id/TenPhim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="2dp"
+            android:textColor="#fff"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Diem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="2dp"
+            android:drawableStart="@drawable/imdb_star"
+            android:textColor="#fff"
+            android:textSize="12dp" />
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>
